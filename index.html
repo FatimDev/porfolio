@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Fatim NDIAYE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <h1>Fatim NDIAYE</h1>
+            <p>Je suis Fatim, Développeuse en devenir passionnée par le web et le design !</p>
+        </div>
+        <nav>
+            <a href="#apropos">À propos</a>
+            <a href="#projets">Mes Projets</a>
+            <a href="#competences">Mes Compétences</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Section À propos -->
+    <section id="apropos">
+        <h2>À propos</h2>
+        <div class="apropos-content">
+            <div class="apropos-text">
+                <p>Je m’appelle Fatim NDIAYE, passionné par la création de sites web modernes et interactifs.</p>
+                <p>Je suis actuellement étudiant en développement web, et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.</p>
+                <a href="cv.pdf" download class="btn">
+                    <img src="cv-icon.png" alt="Icône CV"> Télécharger mon CV
+                </a>
+            </div>
+            <div class="apropos-image">
+                <img src="dev.jpg" alt="Photo de profil">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Mes Projets -->
+    <section id="projets">
+        <h2>Mes Projets</h2>
+        <div class="projet-grid">
+            <div class="projet">
+                <h3>Mini-jeu interactif en JavaScript</h3>
+                <p>#html, #css, #js</p>
+                <a href="#" class="btn">Voir</a>
+            </div>
+            <div class="projet">
+                <h3>portfolio en ligne</h3>
+                <p>#html, #css, #js</p>
+                <a href="#" class="btn">Voir</a>
+            </div>
+            <div class="projet">
+                <h3>heure temps reel</h3>
+                <p>#html, #css, #js</p>
+                <a href="#" class="btn">Voir</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences">
+        <h2>Mes Compétences</h2>
+        <div class="competences-container">
+            <!-- Soft Skills -->
+            <div class="skills-column">
+                <h3>Soft Skills</h3>
+                <div class="competence">
+                    <span>Communication</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="competence">
+                    <span>Collaboration</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="competence">
+                    <span>Résolution de problèmes</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Hard Skills -->
+            <div class="skills-column">
+                <h3>Hard Skills</h3>
+                <div class="competence">
+                    <span>HTML</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="competence">
+                    <span>CSS</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="competence">
+                    <span>JavaScript</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="competence">
+                    <span>VS Code</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <!-- Première ligne : Prénom et Nom -->
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                </div>
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+            </div>
+    
+            <!-- Deuxième ligne : Sujet -->
+            <div class="form-group">
+                <label for="sujet">Sujet</label>
+                <input type="text" id="sujet" name="sujet" required>
+            </div>
+    
+            <!-- Troisième ligne : Message -->
+            <div class="form-group">
+                <label for="message">Détails du message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+    
+            <!-- Bouton Envoyer -->
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>Designed by Fatima In Tech</p>
+    </footer>
+</body>
+</html>
